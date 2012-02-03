@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACCCABB314DC7A5E00D3AEB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCCABB214DC7A5E00D3AEB7 /* UIKit.framework */; };
+		ACCCABB514DC7A5E00D3AEB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCCABB414DC7A5E00D3AEB7 /* Foundation.framework */; };
+		ACCCABB714DC7A5E00D3AEB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCCABB614DC7A5E00D3AEB7 /* CoreGraphics.framework */; };
+		ACCCABBD14DC7A5E00D3AEB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACCCABBB14DC7A5E00D3AEB7 /* InfoPlist.strings */; };
+		ACCCABBF14DC7A5E00D3AEB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCCABBE14DC7A5E00D3AEB7 /* main.m */; };
+		ACCCABC314DC7A5E00D3AEB7 /* FifteenPuzzleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCCABC214DC7A5E00D3AEB7 /* FifteenPuzzleAppDelegate.m */; };
+		ACCCABC614DC7A5E00D3AEB7 /* FifteenPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCCABC514DC7A5E00D3AEB7 /* FifteenPuzzleViewController.m */; };
+		ACCCABC914DC7A5E00D3AEB7 /* FifteenPuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACCCABC714DC7A5E00D3AEB7 /* FifteenPuzzleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACCCABAE14DC7A5E00D3AEB7 /* FifteenPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifteenPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCCABB214DC7A5E00D3AEB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACCCABB414DC7A5E00D3AEB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACCCABB614DC7A5E00D3AEB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACCCABBA14DC7A5E00D3AEB7 /* FifteenPuzzle-Info.plist */ = {isa = PBXFileReference; path = "FifteenPuzzle-Info.plist"; sourceTree = "<group>"; };
+		ACCCABBC14DC7A5E00D3AEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACCCABBE14DC7A5E00D3AEB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACCCABC014DC7A5E00D3AEB7 /* FifteenPuzzle-Prefix.pch */ = {isa = PBXFileReference; path = "FifteenPuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		ACCCABC114DC7A5E00D3AEB7 /* FifteenPuzzleAppDelegate.h */ = {isa = PBXFileReference; path = FifteenPuzzleAppDelegate.h; sourceTree = "<group>"; };
+		ACCCABC214DC7A5E00D3AEB7 /* FifteenPuzzleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FifteenPuzzleAppDelegate.m; sourceTree = "<group>"; };
+		ACCCABC414DC7A5E00D3AEB7 /* FifteenPuzzleViewController.h */ = {isa = PBXFileReference; path = FifteenPuzzleViewController.h; sourceTree = "<group>"; };
+		ACCCABC514DC7A5E00D3AEB7 /* FifteenPuzzleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FifteenPuzzleViewController.m; sourceTree = "<group>"; };
+		ACCCABC814DC7A5E00D3AEB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FifteenPuzzleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACCCABAB14DC7A5E00D3AEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCCABB314DC7A5E00D3AEB7 /* UIKit.framework in Frameworks */,
+				ACCCABB514DC7A5E00D3AEB7 /* Foundation.framework in Frameworks */,
+				ACCCABB714DC7A5E00D3AEB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACCCABA314DC7A5E00D3AEB7 = {
+			isa = PBXGroup;
+			children = (
+				ACCCABB814DC7A5E00D3AEB7 /* FifteenPuzzle */,
+				ACCCABB114DC7A5E00D3AEB7 /* Frameworks */,
+				ACCCABAF14DC7A5E00D3AEB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACCCABAF14DC7A5E00D3AEB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCABAE14DC7A5E00D3AEB7 /* FifteenPuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACCCABB114DC7A5E00D3AEB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCABB214DC7A5E00D3AEB7 /* UIKit.framework */,
+				ACCCABB414DC7A5E00D3AEB7 /* Foundation.framework */,
+				ACCCABB614DC7A5E00D3AEB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACCCABB814DC7A5E00D3AEB7 /* FifteenPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCABC114DC7A5E00D3AEB7 /* FifteenPuzzleAppDelegate.h */,
+				ACCCABC214DC7A5E00D3AEB7 /* FifteenPuzzleAppDelegate.m */,
+				ACCCABC414DC7A5E00D3AEB7 /* FifteenPuzzleViewController.h */,
+				ACCCABC514DC7A5E00D3AEB7 /* FifteenPuzzleViewController.m */,
+				ACCCABC714DC7A5E00D3AEB7 /* FifteenPuzzleViewController.xib */,
+				ACCCABB914DC7A5E00D3AEB7 /* Supporting Files */,
+			);
+			path = FifteenPuzzle;
+			sourceTree = "<group>";
+		};
+		ACCCABB914DC7A5E00D3AEB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCABBA14DC7A5E00D3AEB7 /* FifteenPuzzle-Info.plist */,
+				ACCCABBB14DC7A5E00D3AEB7 /* InfoPlist.strings */,
+				ACCCABBE14DC7A5E00D3AEB7 /* main.m */,
+				ACCCABC014DC7A5E00D3AEB7 /* FifteenPuzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACCCABAD14DC7A5E00D3AEB7 /* FifteenPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCCABCC14DC7A5E00D3AEB7 /* Build configuration list for PBXNativeTarget "FifteenPuzzle" */;
+			buildPhases = (
+				ACCCABAA14DC7A5E00D3AEB7 /* Sources */,
+				ACCCABAB14DC7A5E00D3AEB7 /* Frameworks */,
+				ACCCABAC14DC7A5E00D3AEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FifteenPuzzle;
+			productName = FifteenPuzzle;
+			productReference = ACCCABAE14DC7A5E00D3AEB7 /* FifteenPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACCCABA514DC7A5E00D3AEB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ACCCABA814DC7A5E00D3AEB7 /* Build configuration list for PBXProject "FifteenPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACCCABA314DC7A5E00D3AEB7;
+			productRefGroup = ACCCABAF14DC7A5E00D3AEB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACCCABAD14DC7A5E00D3AEB7 /* FifteenPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACCCABAC14DC7A5E00D3AEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCCABBD14DC7A5E00D3AEB7 /* InfoPlist.strings in Resources */,
+				ACCCABC914DC7A5E00D3AEB7 /* FifteenPuzzleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACCCABAA14DC7A5E00D3AEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCCABBF14DC7A5E00D3AEB7 /* main.m in Sources */,
+				ACCCABC314DC7A5E00D3AEB7 /* FifteenPuzzleAppDelegate.m in Sources */,
+				ACCCABC614DC7A5E00D3AEB7 /* FifteenPuzzleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACCCABBB14DC7A5E00D3AEB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCCABBC14DC7A5E00D3AEB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACCCABC714DC7A5E00D3AEB7 /* FifteenPuzzleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCCABC814DC7A5E00D3AEB7 /* en */,
+			);
+			name = FifteenPuzzleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACCCABCA14DC7A5E00D3AEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACCCABCB14DC7A5E00D3AEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACCCABCD14DC7A5E00D3AEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FifteenPuzzle/FifteenPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "FifteenPuzzle/FifteenPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACCCABCE14DC7A5E00D3AEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FifteenPuzzle/FifteenPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "FifteenPuzzle/FifteenPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACCCABA814DC7A5E00D3AEB7 /* Build configuration list for PBXProject "FifteenPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCCABCA14DC7A5E00D3AEB7 /* Debug */,
+				ACCCABCB14DC7A5E00D3AEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCCABCC14DC7A5E00D3AEB7 /* Build configuration list for PBXNativeTarget "FifteenPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCCABCD14DC7A5E00D3AEB7 /* Debug */,
+				ACCCABCE14DC7A5E00D3AEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACCCABA514DC7A5E00D3AEB7 /* Project object */;
+}
