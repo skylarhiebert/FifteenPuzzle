@@ -2,8 +2,8 @@
 //  FifteenPuzzleAppDelegate.h
 //  FifteenPuzzle
 //
-//  Created by Guest User on 2/3/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Skylar Hiebert on 2/3/12.
+//  Copyright (c) 2012 skylarhiebert.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
